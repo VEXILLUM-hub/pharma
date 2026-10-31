@@ -1,0 +1,33 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+:root{--deep:#15352f;--forest:#146d52;--muted:#68766e;--paper:#f5f6f0;--border:#e1e7e1}
+html, body, [class*=css], [data-testid=stApp]{font-family:'Noto Sans KR',sans-serif}
+[data-testid=stAppViewContainer]{background:#f5f6f0;color:var(--deep)}
+[data-testid=stHeader]{background:transparent}
+[data-testid=stSidebar]{background:#eaf0e5}
+[data-testid=stSidebar] *{color:var(--deep)}
+.block-container{max-width:1190px;padding-top:2rem}
+.studio-brand{display:flex;align-items:center;gap:13px;margin:2px 0 30px;color:#15352f;font-size:14px;font-weight:900;letter-spacing:.08em}
+.studio-brand small{display:block;font-size:11px;letter-spacing:0;font-weight:500;color:#60786d}
+.studio-logo{height:45px;width:45px;border-radius:12px;background:#146d52;color:#fff;text-align:center;line-height:45px;font-size:27px;position:relative}
+.studio-logo span{position:absolute;right:5px;top:-13px;font-size:15px}
+.eyebrow{font-size:12px;font-weight:900;color:#146d52;letter-spacing:.10em}
+.headline{font-size:clamp(30px,4vw,48px);line-height:1.4;letter-spacing:-.06em;color:#15352f;margin:12px 0 14px}
+.headline span{color:#146d52}
+.lead{color:#68766e;font-size:15px;margin-bottom:32px}
+.question-panel{background:#fff;border:1px solid #e1e7e1;padding:28px;border-radius:18px;margin-top:23px;margin-bottom:20px;min-height:150px}
+.question-panel h2{font-size:clamp(19px,2.2vw,25px);color:#15352f;line-height:1.7;margin:14px 0 0}
+.interviewer{background:#e9ede3;border:1px solid #dce3d5;border-radius:14px;min-height:110px;padding:14px 8px;text-align:center;opacity:.55;color:#15352f}
+.interviewer.active{background:#e1edcf;border:2px solid #146d52;opacity:1}
+.interviewer b,.interviewer small{display:block}
+.interviewer b{font-size:13px}.interviewer small{font-size:11px;color:#60786d}
+.person-icon{font-size:27px}
+.bank-q{background:#fff;border:1px solid #e1e7e1;border-radius:10px;padding:14px 16px;margin-bottom:8px;line-height:1.6;color:#15352f}
+.bank-q span{font-weight:800;color:#146d52;margin-right:9px}
+.mode-chip{font-size:12px;font-weight:750;color:#146d52;padding:8px 10px;background:#d9e8d4;border-radius:8px}
+[data-testid=stMetric]{background:white;border:1px solid #e1e7e1;border-radius:12px;padding:14px}
+[data-testid=stProgress] [data-testid=stProgressBar] > div{background:#146d52}
+div.stButton>button[kind=primary], div.stDownloadButton>button[kind=primary]{background:#146d52;border-color:#146d52;color:white}
+div.stButton>button[kind=primary]:hover{background:#10583f;border-color:#10583f}
+@media (max-width:640px){.block-container{padding:16px 13px}.interviewer{padding:8px 3px;min-height:92px}.interviewer b{font-size:10px}.interviewer small{font-size:9px}.question-panel{padding:18px}}
+</style>

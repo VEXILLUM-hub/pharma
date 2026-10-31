@@ -1,0 +1,23 @@
+PHARMA QUALITY INTERVIEW v2 — 실행 안내
+
+[방법 A: AI 면접 평가까지 사용]
+1. Python 3.11 이상을 설치합니다: https://www.python.org/downloads/
+   설치 시 Windows의 "Add python.exe to PATH"를 체크하세요.
+2. 이 폴더에서 start_windows.bat 파일을 더블클릭합니다.
+3. 처음 실행할 때 인터넷으로 Streamlit 등 Python 라이브러리가 설치됩니다.
+4. 브라우저 주소창에 http://localhost:8501 을 입력합니다.
+5. 왼쪽 'AI 연결' 메뉴에 자신의 OpenAI API 키를 입력하면 LLM 평가가 됩니다.
+   API 키가 없다면 점수 없이 질문 연습과 기본 표현 점검이 가능합니다.
+   ChatGPT Plus 구독과 API 요금은 별개입니다.
+
+[방법 B: 설치 없이 빠른 체험]
+- quick_practice.html을 더블클릭합니다.
+- 질문 335개, 답변 입력, 기초 점검, 로컬 기록 저장 및 내보내기를 사용할 수 있습니다.
+- 이 방법은 LLM(실제 AI) 평가를 지원하지 않습니다.
+
+[중요]
+- 개인 PC에서 사용하는 것을 전제로 만들었습니다. 다른 사람에게 공개하는 서버에는 그대로 배포하지 마세요.
+- 원본 질문 및 사이트 소스 파일은 assets/original_source 폴더에 보존했습니다.
+- 원본 자료의 공개 배포·상업적 재사용 허락 여부는 확인되지 않았습니다.
+- 평가 결과는 연습 참고용이며, GMP 공식 규정 해석이나 실제 채용 결과 예측이 아닙니다.
+- 자세한 설명은 README.md를 확인하세요.
